@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
+    android:padding="20dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,7 +19,7 @@
         android:layout_height="wrap_content"
         android:text="Time"
         android:textSize="40dp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/purple_500"
         android:gravity="center"
         android:textAlignment="center"
         />
@@ -30,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="Guess Number!"
         android:textSize="40dp"
+        android:textColor="@color/black"
         android:gravity="center"
         android:textAlignment="center"
         />
@@ -66,5 +68,11 @@
         android:gravity="center"
         android:textAlignment="center"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scores"
+        android:id="@+id/showData"
+        android:layout_marginTop="40dp"/>
 </LinearLayout>
 </ScrollView>
