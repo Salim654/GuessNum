@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                     int score=timeleft-trys;
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Score");
-                    if (score>50){
+                    if (score>30){
                         builder.setMessage("U won with  :"+ score +" Score ");
                         final EditText name = new EditText(MainActivity.this);
                         name.setInputType(InputType.TYPE_CLASS_TEXT);
